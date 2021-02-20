@@ -1,3 +1,3 @@
-# project.StormHacks2021
+# studytime.StormHacks2021
 stormhacks 2021 hackathon project
 
