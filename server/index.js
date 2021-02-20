@@ -1,8 +1,9 @@
-const express = require('express')
+const express = require('express') // import express.js library 
 const app = express()
 const server = require('http').createServer(app)
 const path = require('path')
 
+// inside static folder (../static from index.js) look for an index.html page to load for the user
 app.use(
   express.static( path.join(__dirname, '../static'))
 )
