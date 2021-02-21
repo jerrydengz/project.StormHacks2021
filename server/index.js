@@ -12,7 +12,7 @@ app.use(
 io.on('connection', socket => {
   console.log('Some client connected')
   socket.on('chat', message =>{
-    io.emit('chat', message)
+    io.emit('chat', {message, id: socket.id}) // receive socket id (different clients will have different IDs)
   })  
 })
 
