@@ -166,16 +166,6 @@
     color: #FFFFFF;
 }
 
-.search {
-    position: absolute;
-    width: 412px;
-    height: 52px;
-    left: 514px;
-    top: 363px;
-
-    background: #FFFFFF;
-}
-
 .go {  
     position: absolute;
     width: 25px;
@@ -207,3 +197,97 @@
     box-sizing: border-box;
 }
 
+.bio {
+    position: absolute;
+    width: 126px;
+    height: 19px;
+    left: 153px;
+    top: 906px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    /* identical to box height */
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #414141;
+}
+
+.macroecon {
+    position: absolute;
+    width: 125px;
+    height: 19px;
+    left: 496px;
+    top: 906px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    /* identical to box height */
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #414141;
+}
+
+.psych {
+    position: absolute;
+    width: 115px;
+    height: 19px;
+    left: 845px;
+    top: 906px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    /* identical to box height */
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #414141;
+}
+
+.calc {
+    position: absolute;
+    width: 121px;
+    height: 19px;
+    left: 1189px;
+    top: 906px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    /* identical to box height */
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #414141;
+}
+
+.searchBar {
+    position: absolute;
+    width: 412px;
+    height: 52px;
+    left: 514px;
+    top: 363px;
+
+    background: #FFFFFF;
+}
+    
