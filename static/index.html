@@ -5,7 +5,7 @@
 		<meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" type="text/css" href="index.css">
-		<title>Home</title>
+		<title>StudyTime</title>
         <script src="socket.io/socket.io.js"></script>
 		<script src="app.js"></script> 
 	</head>
@@ -17,15 +17,14 @@
                 <!-- navigation menu-->
                 <ul>
                     <!-- profile picture far left -->
-                    <a href = "home.html"> <div class="home"> <b> Home </b></div> </a>
+                    <a href = "index.html"> <div class="home"> <b> Home </b></div> </a>
                     <a href = "about.html"> <div class="about"> <b> About </b> </div> </a>
-                    <a href = "index.html"> <div class="studyGroups"> <b> Study Groups </b></div> </a>
+                    <a href = "room.html"> <div class="studyGroups"> <b> Study Groups </b></div> </a>
                     <a href = "contact.html"> <div class="contactUs"> <b> Contact Us </b></div> </a>
                 </ul> 
             </div> 
             
-            <div class = "userProfile"> <!-- user profile-->
-            </div>
+            <div class = "userProfile"> <img src="images/surprised-pikachu.png"></img> </div>
 
 
             <div>
@@ -35,31 +34,30 @@
             </div>
 
             <!-- search bar -->
-            <input type="text" class = "searchBar"  placeholder="Get Productive! Or not... :(" >
+            <input type="text" class = "searchBar"  placeholder="   Get Productive! Or not... :(" >
         
 
         </div>
 
-
         <!--Bottom of home screen i.e. the white section -->
             <div>
-                <div class = "studyTopics"> <h5> Popular Study Topics </h5> </div>
+                <div class = "studyTopics"> <h5 class="studytopicsh5"> <svg width="37" height="35" viewBox="0 0 37 35" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M32.7114 6.53222L30.34 4.17661L27.3295 7.18377L29.7009 9.53938L32.7114 6.53222ZM20.1818 0H16.8182L16.8182 4.9284H20.1818L20.1818 0ZM31.9545 19.9642H37V16.6229H31.9545V19.9642ZM13.4545 26.9642V35H23.5455V26.9642C26.5559 25.2267 28.5909 22.0024 28.5909 18.2936C28.5909 12.7637 24.0668 8.26969 18.5 8.26969C12.9332 8.26969 8.40909 12.7637 8.40909 18.2936C8.40909 22.0024 10.4441 25.2267 13.4545 26.9642ZM5.04546 19.9642V16.6229L0 16.6229V19.9642H5.04546ZM9.68727 7.16707L6.67682 4.15991L4.30545 6.51552L7.33273 9.50597L9.68727 7.16707Z" fill="#414141"/>
+                    </svg>
+                     Popular Study Topics </h5> </div>
 
-                <div class="card1"> <!-- card 1 (to go join study sessions)--></div>
+                <div class="card1"> <img src="images/dna.png"></img></div>
                 <div class = "bio"> <b> First Year Biology </b> </div>
 
-                <div class="card2"> <!-- card 2 (to go join study sessions)--></div>
+                <div class="card2"> <img src="images/globe.png"></img> </div>
                 <div class = "macroecon"> <b> Macroeconomics </b></div> 
 
-                <div class="card3"> <!-- card 3 (to go join study sessions)--></div>
+                <div class="card3"> <img src="images/brain.png"> </img> </div>
                 <div class = "psych"> <b> Psychology 102 </b> </div>
 
-                <div class="card4"> <!-- card 4 (to go join study sessions)--></div>
+                <div class="card4"> <img src="images/sigma.png"s></img> </div>
                 <div class = "calc"> <b> Integral Calculus </b></div> 
 
             </div>
-                                  
-   
-        
 	</body> 
 </html>

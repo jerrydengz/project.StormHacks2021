@@ -1,0 +1,181 @@
+/* Global */
+*, html, body {
+    margin: 0;
+    padding: 0; 
+    font-family: 'Poppins', 'Segoe UI', 'sans-serrif';
+    box-sizing: border-box;
+    color: white;
+}
+
+.roomType{
+    position: absolute;
+    left: 280px;
+    top: 50px;
+}
+
+
+.roomChat {
+    position: absolute;
+    width: 200px;
+    height: 33px;
+    left: 1150px;
+    top: 90px;
+
+    font-family: 'Segoe UI';
+    font-style: normal;
+    font-size: 28px;
+    line-height: 33px;
+    /* identical to box height */
+
+
+    color: #FFFFFF;
+}
+
+.bg {
+    position: relative;
+    width: 1440px;
+    height: 1024px;
+
+    background: #414141;
+}
+
+/* input from client */
+.chat-message--user {
+    background-color: gray;
+    color: whitesmoke;
+    font-family: 'Segoe UI';
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding: 5px;
+    padding-left: 10px;
+}
+
+
+.chat-form {
+    position: absolute;
+    width: 400px;
+    height: 41.35px;
+    left: 1016px;
+    top: 961px;
+    padding: 10px 10px 5px 10px;
+
+    font-family: 'Segoe UI';
+    color: white;
+    background: black;
+}
+
+.chat-input{
+    width: 200px;
+    color: black;
+}
+
+.chat-submit{
+    width: 50px;
+    color: black
+}
+
+
+/* where msgs go */
+.textBody {
+    position: absolute;
+    width: 440px;
+    height: 1024px;
+    left: 1000px;
+    top: 0px;
+
+    background: silver;
+}
+
+.chat-dump {
+    position: absolute;
+    width: 389px;
+    height: 57px;
+    left: 1025px;
+    top: 142px;
+
+    font-family: 'Segoe UI';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 19px;
+}
+
+.leaveRoom {
+    position: absolute;
+    width: 89px;
+    height: 19px;
+    left: 30px;
+    top: 977px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    /* identical to box height */
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+.idSide {
+    background-color: yellow;
+}
+
+.id1 {
+    
+    position: absolute;
+    width: 250px;
+    height: 250px;
+    left: 173px;
+    top: 217px;
+}
+
+.id2 {
+    position: absolute;
+    width: 250px;
+    height: 250px;
+    left: 577px;
+    top: 217px;
+}
+
+.id3 {
+    position: absolute;
+    width: 250px;
+    height: 250px;
+    left: 173px;
+    top: 595px;
+}
+
+.id4 {
+    position: absolute;
+    width: 250px;
+    height: 250px;
+    left: 577px;
+    top: 595px;
+}
+
+.leaveRoom{
+    
+    position: absolute;
+    margin-bottom: 100px;
+    width: 105px;
+    height: 30px;
+    bottom: 100px;
+    
+    font-family: 'Segoe UI';
+    
+    background-color: black;
+    color: white;
+}
+
+a
+{
+    text-decoration: none; 
+    color: white;
+
+}

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+	<html lang="en">
+
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Study Room</title>
+		<link rel="stylesheet" type="text/css" href="room-test.css">
+	</head>
+
+	<body>
+		<h1>Study Room test<h1>
+
+		<div> <!-- current users present in the room studying -->
+			<svg width="250" height="250" viewBox="0 0 250 250" fill="none" xmlns="http://www.w3.org/2000/svg">
+				<circle cx="125" cy="125" r="121" fill="#FFA755" stroke="white" stroke-width="8"/>
+				</svg>
+
+				
+				
+		</div>
+
+
+		<div class="roomChatSection"> <!-- room chat section-->
+			<h4>Room Chat</h4>
+
+			<form class="chat-form">
+				<label class="chat-label">
+					Enter a message:
+					<input type="text" class="chat-input">
+				</label>
+				<input type="submit" class="chat-submit" value="enter">
+			</form>
+
+		</div>
+
+
+		<div class="button">
+			<button type="button"> <a href="home.html"> <h1> Leave Room </h1> </a> </button>
+		</div>
+
+        <script src="socket.io/socket.io.js"></script>
+		<script src="app.js"></script> 
+	</body>
+</html>
