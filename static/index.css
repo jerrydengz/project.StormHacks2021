@@ -65,3 +65,61 @@
     font-size: 16px;
     line-height: 19px;
 }
+
+.leaveRoom {
+    position: absolute;
+    width: 89px;
+    height: 19px;
+    left: 30px;
+    top: 977px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    /* identical to box height */
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+.idSide {
+    background-color: yellow;
+}
+
+.id1 {
+    
+    position: absolute;
+    width: 250px;
+    height: 250px;
+    left: 173px;
+    top: 217px;
+}
+
+.id2 {
+    position: absolute;
+    width: 250px;
+    height: 250px;
+    left: 577px;
+    top: 217px;
+}
+
+.id3 {
+    position: absolute;
+    width: 250px;
+    height: 250px;
+    left: 173px;
+    top: 595px;
+}
+
+.id4 {
+    position: absolute;
+    width: 250px;
+    height: 250px;
+    left: 577px;
+    top: 595px;
+}

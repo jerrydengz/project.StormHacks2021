@@ -5,7 +5,7 @@
 		<meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<title>Study Room</title>
-		<link rel="stylesheet" href="room.css">
+		<link rel="stylesheet" type="text/css" href="room.css">
 	</head>
 
 	<body>
@@ -14,10 +14,11 @@
 		<div> <!-- current users present in the room studying -->
 		</div>
 
-		<div> <!-- room chat section-->
+
+
+
+		<div class="roomChatSection"> <!-- room chat section-->
 			<h4>Room Chat</h4>
-
-
 
 			<form class="chat-form">
 				<label class="chat-label">
@@ -26,13 +27,13 @@
 				</label>
 				<input type="submit" class="chat-submit" value="enter">
 			</form>
+
 		</div>
 
 
 		<div>
-			<button type="button"> <a href="home.html">Leave Room</a></button> <!-- return back to home? -->
+			<button type="button"> <a href="home.html"> <h1> Leave Room </h1> </a> </button>
 		</div>
-
 
         <script src="socket.io/socket.io.js"></script>
 		<script src="app.js"></script> 
