@@ -11,6 +11,9 @@ app.use(
 
 io.on('connection', socket => {
   console.log('Some client connected')
+  socket.on('chat', message =>{
+    io.emit('chat', message)
+  })  
 })
 
 app.get('/', (req, res, next) => {
