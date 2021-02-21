@@ -6,10 +6,12 @@ chat.addEventListener('submit', e => {
   socket.emit('chat', chatInput.value)
   chatInput.value = ''
 })
+
 const chatDump = document.querySelector('.chat-dump')
 const render = ({message, id}) => {
   const div = document.createElement('div')
   div.classList.add('chat-message')
+  
   if (id === socket.id) { // broadcasted chat is from this client
     div.classList.add('chat-message--user')
   }
