@@ -1,0 +1,60 @@
+.homebg {
+    position: absolute;
+    width: 1440px;
+    height: 503px;
+    left: 0px;
+    top: 0px;
+
+    background: #6BAFFF;
+}
+
+.navMenu {
+    display:inline;
+    text-align: center;
+    padding: 5px;
+}
+
+.card1 {
+    position: absolute;
+    width: 230px;
+    height: 230px;
+    left: 88px;
+    top: 657px;
+
+    background: #FF7575;
+    border-radius: 50px;
+}
+
+.card2 {
+    position: absolute;
+    width: 230px;
+    height: 230px;
+    left: 433px;
+    top: 657px;
+
+    background: #6BAFFF;
+    border-radius: 50px;
+}
+
+.card3 {
+        
+    position: absolute;
+    width: 230px;
+    height: 230px;
+    left: 778px;
+    top: 657px;
+
+    background: #FFA755;
+    border-radius: 50px;
+}
+
+.card4 {
+    position: absolute;
+    width: 230px;
+    height: 230px;
+    left: 1123px;
+    top: 657px;
+
+    background: #FFCE70;
+    border-radius: 50px;
+}
